@@ -2,8 +2,18 @@
 
 
 body {
-    style="background-color: red;
+    background-color: #dddddd;
+    color: rgba(0,0, 0, 1);
+
 }
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 10px auto;
+
+}
+
 
 p {
     text-align: justify;
@@ -52,7 +62,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 500px;
 
 }
 nav#menu li {
