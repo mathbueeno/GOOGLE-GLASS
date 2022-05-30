@@ -139,6 +139,31 @@ section#corpo {
     padding-right: 20px;
 }
 
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+   vertical-align: middle;
+}
+
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+
+}
+
+table#tabelaspec td.cd{
+    background-color: #cecece;
+}
+
+
 aside#lateral {
     display: block;
     width: 350px;
@@ -152,3 +177,4 @@ footer#rodape {
 footer#rodape {
     text-align: center;
 }
+
