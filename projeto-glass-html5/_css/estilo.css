@@ -133,11 +133,22 @@ nav#menu a:hover {
 
 section#corpo {
     display: block;
-    width: 600px;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
 }
 
 aside#lateral {
     display: block;
-    width: 400px;
+    width: 350px;
+    float: right;
+}
 
+footer#rodape {
+    clear: both;
+}
+
+footer#rodape {
+    text-align: center;
 }
