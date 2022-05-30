@@ -5,6 +5,12 @@
         <title>Tudo sobre o Google Glass</title>
         <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
     </head>
+    <script>
+        function mudaFoto (foto)
+        {
+            document.getElementById ("icone").src = foto;
+        }
+    </script>
 <body>
 <div id="interface">
 
@@ -20,8 +26,8 @@
  
     <nav id="menu">
     <h1>Menu Principal</h1>
-    <ul>
-        <li><a href="index.html">Home</a></li>
+    <ul type="disc">
+        <li onmouseover="mudaFoto ('_imagens/home.png')" onmouseout="mudaFoto('_imagens/glass')"><a href="index.html">Home</a></li>
         <li><a href="specs.html">Especificações</a></li>
         <li><a href="fotos.html">Fotos</a></li>
         <li><a href="multimidia.html">Multimídia</a></li>
